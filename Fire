@@ -1,6 +1,4 @@
--- FrontEnd // UI
-
--- Objects
+--// FIRE SPY | Remote 2 Spy v2
 
 local RemoteSpy = Instance.new("ScreenGui")
 local BG = Instance.new("Frame")
@@ -565,8 +563,6 @@ Search.FontSize = Enum.FontSize.Size14
 Search.Text = "[SEARCH]"
 Search.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
 Search.TextSize = 14
-
--- FrontEnd-Backend // UI Functions
 
 local HasSpecial = function(string)
    return (string:match("%c") or string:match("%s") or string:match("%p")) ~= nil
